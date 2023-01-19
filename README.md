@@ -21,3 +21,13 @@ pip install django
 Podemos verificar la instalación con una terminal que ejecute el venv con el comando 
 
     django-admin --version
+
+- Iniciar un proyecto en Django
+```
+    django-admin startproject mysite .
+```
+
+- Ejecutar un proyecto de Django
+```
+python manage.py runserver
+```
